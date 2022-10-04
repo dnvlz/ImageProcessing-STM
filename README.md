@@ -46,9 +46,7 @@ illumination of the surface of the mountains is
 
 $$
 I = |\vec{a}| \cos\theta = \frac{\vec{a}\cdot\vec{v}}{|\vec{v}|}
-  = \frac{a_x (\partial w/\partial x)
-   + a_y (\partial w/\partial y) - a_z}{
-     \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.
+  = \frac{a_x (\partial w/ \partial x)+a_y (\partial w/ \partial y) - a_z}{\sqrt{(\partial w/ \partial x)^2 + (\partial w/ \partial y)^2 + 1}}.
 $$
 
 Let's take a simple case where the light is shining horizontally with unit
