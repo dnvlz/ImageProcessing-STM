@@ -65,7 +65,7 @@ know $\phi$ we can calculate the intensity at any point.
 
 
 1. The file
-  \verb|altitude.txt| contains the altitude $w(x,y)$ in meters above
+  `altitude.txt` contains the altitude $w(x,y)$ in meters above
   sea level (or depth below sea level) of the surface of the Earth,
   measured on a grid of points $(x,y)$. We show a program that reads this
   file and stores the data in an array,and then calculates the derivatives
@@ -83,14 +83,14 @@ know $\phi$ we can calculate the intensity at any point.
 
 Note that the value of the intensity $I$ from the formula above can be either positive or negative---it ranges from $+1$ to $-1$.  What does a negative intensity mean?  It means that the area in question is *in shadow*---it lies on the wrong side of the mountain to receive any light at all.  
 
-* There is another file in the on-line resources called \verb|stm.txt|,
+* There is another file in the on-line resources called `stm.txt`,
   which contains a grid of values from scanning tunneling microscope
   measurements of the (111) surface of silicon.  A scanning
   tunneling microscope (STM) is a device that measures the shape of
   surfaces at the atomic level by tracking a sharp tip over the surface and
   measuring quantum tunneling current as a function of position.  The end
   result is a grid of values that represent the height of the surface as a
-  function of position and the data in the file \verb|stm.txt| contain just
+  function of position and the data in the file `stm.txt` contain just
   such a grid of values.  We modify the previous program to visualize
   the STM data and hence create a 3D picture of what the silicon
   surface looks like.  The value of $h$ for the derivatives in this case is
