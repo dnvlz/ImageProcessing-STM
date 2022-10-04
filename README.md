@@ -65,8 +65,8 @@ know $\phi$ we can calculate the intensity at any point.
 1. The file
   `altitude.txt` contains the altitude $w(x,y)$ in meters above
   sea level (or depth below sea level) of the surface of the Earth,
-  measured on a grid of points $(x,y)$. We show a program that reads this
-  file and stores the data in an array,and then calculates the derivatives
+  measured on a grid of points $(x,y)$. We include a program that reads this
+  file and stores the data in an array, and then calculates the derivatives
   $\partial w/\partial x$ and $\partial w/\partial y$ at each grid point.
   To calculate
   the derivatives we need to know the value of h, the distance in
