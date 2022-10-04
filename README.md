@@ -17,20 +17,22 @@ function of position in the plane, so the equation for the Earth's
 surface is simply $z=w(x,y)$, or equivalently $w(x,y)-z=0$, and the normal
 vector $\vec{v}$ to the surface is given by the gradient of $w(x,y)-z$
 thus:
+
 $$
 \vec{v} =
-\nabla [w(x,y)-z] = \begin{pmatrix}
-                  \partial/\partial x \\
-                  \partial/\partial y \\
-                  \partial/\partial z
+\nabla (w(x,y)-z)= \begin{pmatrix}
+                  \partial/ \partial x \\
+                  \partial/ \partial y \\
+                  \partial/ \partial z
                 \end{pmatrix}
-                [w(x,y)-z]
+                (w(x,y)-z)
               = \begin{pmatrix}
-                  \partial w/\partial x \\
-                  \partial w/\partial y \\
+                  \partial w/ \partial x \\
+                  \partial w/ \partial y \\
                   -1
                 \end{pmatrix}.
 $$
+
 Now suppose we have light coming in represented by a vector~$\vec{a}$ with
 magnitude equal to the intensity of the light.  Then the dot product of the
 vectors $\vec{a}$ and~$\vec{v}$ is
