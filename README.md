@@ -19,7 +19,8 @@ as a function of position in the plane, so the equation for the Earth’s
 surface is simply *z* = *w*(*x*,*y*), or equivalently
 *w*(*x*,*y*) − *z* = 0, and the normal vector *v⃗* to the surface is
 given by the gradient of *w*(*x*,*y*) − *z* thus:
-$$\mathbf{v}=
+
+$$\vec{v} =
 \nabla \[w(x,y)-z\] = \begin{pmatrix}
                   \partial/\partial x \\\\
                   \partial/\partial y \\\\
@@ -31,27 +32,32 @@ $$\mathbf{v}=
                   \partial w/\partial y \\\\
                   -1
                 \end{pmatrix}.$$
+                
 Now suppose we have light coming in represented by a vector *a⃗* with
 magnitude equal to the intensity of the light. Then the dot product of
 the vectors *a⃗* and *v⃗* is
 *a⃗* ⋅ *v⃗* = \|*a⃗*\| \|*v⃗*\|cos *θ*,
 where *θ* is the angle between the vectors. Thus the intensity of
 illumination of the surface of the mountains is
+
 $$I = \|\vec{a}\| \cos\theta = {\vec{a}\cdot\vec{v}\over\|\vec{v}\|}
   = {a_x (\partial w/\partial x)
    + a_y (\partial w/\partial y) - a_z\over
      \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.$$
+     
 Let’s take a simple case where the light is shining horizontally with
 unit intensity, along a line an angle *ϕ* counter-clockwise from the
-east-west axis, so that *a⃗* = (cos*ϕ*,sin*ϕ*,0). Then our intensity of
+east-west axis, so that *a* = (cos*ϕ*,sin*ϕ*,0). Then our intensity of
 illumination simplifies to
+
 $$I = {\cos\phi\\,(\partial w/\partial x) + \sin\phi\\,(\partial w/\partial y)\over
      \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.$$
+     
 If we can calculate the derivatives of the height *w*(*x*,*y*) and we
 know *ϕ* we can calculate the intensity at any point.
 
 1.  The file `altitude.txt` contains the altitude *w*(*x*,*y*) in meters
-    above sea level (ordepth below sea level) of the surface of the
+    above sea level (or depth below sea level) of the surface of the
     Earth, measured on a grid of points (*x*,*y*). By reading this file
     and storing the data in an array, we can calculate the derivatives
     ∂*w*/∂*x* and ∂*w*/∂*y* at each grid point. To calculate the
