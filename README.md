@@ -19,7 +19,7 @@ function of position in the plane, so the equation for the Earth's
 surface is simply $z=w(x,y)$, or equivalently $w(x,y)-z=0$, and the normal
 vector~$\vec{v}$ to the surface is given by the gradient of $w(x,y)-z$
 thus:
-\begin{displaymath}
+$$
 \vec{v} =
 \nabla [w(x,y)-z] = \begin{pmatrix}
                   \partial/\partial x \\
@@ -32,13 +32,12 @@ thus:
                   \partial w/\partial y \\
                   -1
                 \end{pmatrix}.
-\end{displaymath}
+$$
 Now suppose we have light coming in represented by a vector~$\vec{a}$ with
 magnitude equal to the intensity of the light.  Then the dot product of the
 vectors $\vec{a}$ and~$\vec{v}$ is
-\begin{displaymath}
-\vec{a}\cdot\vec{v} = |\vec{a}|\,|\vec{v}|\cos\theta,
-\end{displaymath}
+$$
+\vec{a}\cdot\vec{v} = |\vec{a}|\,|\vec{v}|\cos\theta,$$
 where $\theta$ is the angle between the vectors.  Thus the intensity of
 illumination of the surface of the mountains is
 \begin{displaymath}
@@ -51,10 +50,10 @@ Let's take a simple case where the light is shining horizontally with unit
 intensity, along a line an angle~$\phi$ counter-clockwise from the
 east-west axis, so that $\vec{a}=(\cos\phi,\sin\phi,0)$.  Then our
 intensity of illumination simplifies to
-\begin{displaymath}
+$$
 I = {\cos\phi\,(\partial w/\partial x) + \sin\phi\,(\partial w/\partial y)\over
      \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.
-\end{displaymath}
+$$
 If we can calculate the derivatives of the height~$w(x,y)$ and we
 know~$\phi$ we can calculate the intensity at any point.
 
