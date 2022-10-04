@@ -5,7 +5,7 @@
 When light strikes a surface, the amount falling per unit area
 depends not only on the intensity of the light, but also on the angle of
 incidence.  If the light makes an angle~$\theta$ to the normal, it only
-``sees'' $\cos\theta$ of area per unit of actual area on the surface:
+"sees" $\cos\theta$ of area per unit of actual area on the surface:
 
 So the intensity of illumination is $a\cos\theta$, if $a$ is the raw
 intensity of the light.  This simple physical law is a central element of
