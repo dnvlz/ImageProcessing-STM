@@ -71,10 +71,10 @@ know $\phi$ we can calculate the intensity at any point.
   file and stores the data in an array,and then calculates the derivatives
   $\partial w/\partial x$ and $\partial w/\partial y$ at each grid point.
   To calculate
-  the derivatives we need to know the value of $h$, the distance in
-  meters between grid points, which is about $30000$m in this case.
+  the derivatives we need to know the value of h, the distance in
+  meters between grid points, which is about 30000m in this case.
   (It's actually not precisely constant because we are representing the
-  spherical Earth on a flat map, but $h=30000$m will give reasonable
+  spherical Earth on a flat map, but h=30000m will give reasonable
   results.)
 2. Using the values for the derivatives, we calculate the intensity
   for each grid point, with $\phi=45^\circ$, and make a density plot of the
