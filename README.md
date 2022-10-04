@@ -45,9 +45,9 @@ where $\theta$ is the angle between the vectors.  Thus the intensity of
 illumination of the surface of the mountains is
 
 $$
-I = |\vec{a}| \cos\theta = {\vec{a}\cdot\vec{v}\over|\vec{v}|}
-  = {a_x (\partial w/\partial x)
-   + a_y (\partial w/\partial y) - a_z\over
+I = |\vec{a}| \cos\theta = \frac{\vec{a}\cdot\vec{v}}{|\vec{v}|}
+  = \frac{a_x (\partial w/\partial x)
+   + a_y (\partial w/\partial y) - a_z}{
      \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.
 $$
 
