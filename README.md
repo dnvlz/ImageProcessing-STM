@@ -17,7 +17,7 @@ Suppose, for instance, that we are looking down on the Earth from above
 and we see mountains. We know the height of the mountains *w*(*x*,*y*)
 as a function of position in the plane, so the equation for the Earth’s
 surface is simply *z* = *w*(*x*,*y*), or equivalently
-*w*(*x*,*y*) − *z* = 0, and the normal vector *v⃗* to the surface is
+*w*(*x*,*y*) − *z* = 0, and the normal vector $\vec{v}$ to the surface is
 given by the gradient of *w*(*x*,*y*) − *z* thus:
 
 $$\vec{v} =
