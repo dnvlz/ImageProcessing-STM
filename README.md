@@ -55,8 +55,7 @@ east-west axis, so that $\vec{a}=(\cos\phi,\sin\phi,0)$.  Then our
 intensity of illumination simplifies to
 
 $$
-I = {\cos\phi(\partial w/\partial x) + \sin\phi(\partial w/\partial y)\over
-     \sqrt{(\partial w/\partial x)^2 + (\partial w/\partial y)^2 + 1}}.
+I = \frac{\cos\phi(\partial w/ \partial x) + \sin\phi(\partial w/ \partial y)}{\sqrt{(\partial w/ \partial x)^2 + (\partial w/ \partial y)^2 + 1}}.
 $$
 If we can calculate the derivatives of the height $w(x,y)$ and we
 know $\phi$ we can calculate the intensity at any point.
