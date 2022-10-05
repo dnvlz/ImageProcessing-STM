@@ -93,3 +93,4 @@ Note that the value of the intensity $I$ from the formula above can be either po
   surface looks like.  The value of $h$ for the derivatives in this case is
   around $h=2.5$ (in arbitrary units).
 
+Ref. Computational Physics, Mark Newman
